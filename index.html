@@ -19,8 +19,6 @@
 	  crossorigin="anonymous">
 	</script>
 
-	<script src="node_modules/unirest/index.js"></script>
-
 	<!-- MyScripts -->
 	<script src="js/searcher.js"></script>
 </head>
@@ -42,20 +40,19 @@
 
 
 		<div class="input-group mb-3">
-		  <input type="text" class="form-control" placeholder="Search" id="inputSearch" autofocus onkeypress="search(event);">
+		  <input type="text" class="form-control" placeholder="Search" id="inputSearch" autofocus>
 		  <div class="input-group-append">
 		    <input class="btn btn-danger" type="submit" id="button-addon2" value="Buscar"></input>
 		  </div>
 		</div>
 
 		<div class="row">
-			<h5 class="col-lg-4">Thumbnail</h5>
-			<h5 class="col-lg-4">Title/Description</h5>
+			<h5 class="col-lg-6">Thumbnail</h5>
+			<h5 class="col-lg-6">Title/Description</h5>
 			<!--<h5 class="col-lg-4">Video Id</h5>-->
 			<hr>
-			<div id="videosContainer" class="row">
-				<iframe style="width:100%;min-width:200px;max-width:500px;height:57px;border:0;overflow:hidden;" scrolling="no" src="\/\/api.youtube6download.top\/fetch\/iframe.php?i=lF-jPBnZ098&r=youtube6&color=c91818"><\/iframe>
-			</div>
+		</div>
+		<div id="videosContainer" class="row">
 		</div>
 	</div>
 
